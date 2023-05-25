@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("pictures/pexels-pixabay-326333.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav_bar {
+    display: flex;
+    padding: 2% 6%;
+    list-style: none;
+    position: relative;
+    flex: 1;
+    text-align: right;
+}
+
+nav:hover,
+Home {
+    background-color: white;
+    color: #49230D;
+}
+
+.header {
+    background-color: white;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #49230D;
+}
+
+/*------------ section_nav -------*/
+.section_nav {
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section_nav {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.section_nav-img-zion_room {
+    width: 5%;
+    border-radius: 10px;
+}
+
+
+.footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    color: #49230D;
+}
+
+/* .facilities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    text-align: center;
+  }
+   */
